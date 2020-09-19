@@ -1,14 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {NavbarComponent} from './components/Navbar';
-import {SectionComponent} from './components/Section';
+import NavbarComponent from './components/Navbar';
+import What from './components/What';
+import Contact from './components/Contact';
+import Why from './components/Why';
+import How from './components/How';
 
 function App() {
   return (
     <div>
       <NavbarComponent/>
-      <SectionComponent/>
+      <What/>
+      <How/>
+      <Why/>
+      <Contact/>
     </div>
   );
 }
