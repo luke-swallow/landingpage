@@ -1,41 +1,35 @@
 import React from 'react';
-import {Image, Row, Container, Col}  from 'react-bootstrap'
+import {Image, Row, Container, Col, Figure}  from 'react-bootstrap'
 
 
 function What() {
     return (
         <div className="whatContainer">
            <h1>What is Revision?</h1>
-           <Container>
-           <div className = "row">
-                <div className = "col">
-                <Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy" />
-                </div>
-                <div className ="col" >
-                <Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy" />
-                </div>
-                <div className ="col">
-                <Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy" />
-                </div>
-            
-            </div>
-           </Container>
-           
-
-            <Container>
-
-            <Row>
-            <Col xsPull ={20}>
-                <h2>Convenient</h2>
+           <Container fluid>
+           <Row>
+                <Col >
+                    <Figure> 
+                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
+                        <Figure.Caption> <h2>Convenient</h2></Figure.Caption>
+                    </Figure>
                 </Col>
-                <Col Pull ={4}>
-                <h2>Relevant</h2>
+                <Col >
+                    <Figure> 
+                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
+                        <Figure.Caption> <h2>Convenient</h2></Figure.Caption>
+                    </Figure>
                 </Col>
-                <Col Pull = {4}> 
-                <h2>Convenient</h2>
+                <Col >
+                    <Figure> 
+                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
+                        <Figure.Caption> <h2>Convenient</h2></Figure.Caption>
+                    </Figure>
                 </Col>
             </Row>
-        </Container>
+            </Container>
+           
+           
             
                 <p>
                 In an age of digital platforms, businesses spend thousands of dollars on designing the perfect UI for their platform, only to find that customers still find inconvenience in navigation and functions.
