@@ -23,8 +23,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.whatContainer {
-  background-color: aqua;
+.homeContainer {
+  background-image: url('https://files.slack.com/files-pri/T018GC6BTJQ-F01B274GQN8/pastel_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  
+}
+
+.bottom-mid{
+  position:absolute;
+    bottom:50%;
+    right:25%;
+    left:50%;
+    margin-left:-150px;
+  
+}
+
+/* Bottom left text */
+
+
+  .whatContainer {
+  display: grid;
 }
 
 h1{
