@@ -1,22 +1,17 @@
 import React from 'react';
 import {Image, Row, Container,Button, Col, Figure, Jumbotron}  from 'react-bootstrap'
+import "./Homepage.css";
 
 function Homepage(){
-    const styles = {
-        
-    }
+    
     return(
     
        
-           <Jumbotron fluid>
-               <div className= "child">
-                <Row><h1> Revision</h1></Row>
-                <Row><p>Empowerment through UI/UX</p></Row>
-                <Row><Button variant="success"size="lg">Request a demo</Button>{''}</Row>
-               </div>
-              
-              
-             </Jumbotron>
+           <div className="homeContainer">
+                <h1 className = "h1tag"> Revision</h1>
+                <p className = "pag">Empowerment through UI/UX</p>
+                <Button className="btag" variant="success"size="lg">Request a demo</Button>{''}
+            </div>
     );
 }
 
