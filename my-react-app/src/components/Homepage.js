@@ -9,7 +9,7 @@ function Homepage(){
        
            <div className="homeContainer">
                 <h1 className = "h1tag"> Revision</h1>
-                <p className = "pag">Empowerment through UI/UX</p>
+                <p className = "ptag">Empowerment through UI/UX</p>
                 <Button className="btag" variant="success"size="lg">Request a demo</Button>{''}
             </div>
     );

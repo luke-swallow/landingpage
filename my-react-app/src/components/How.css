@@ -3,19 +3,26 @@
     flex-direction:row;
     height:100vh;
     justify-content: space-around;
-
 }
 #myh1{
     font: Comfortaa;
     weight: 700;
     font-size: 4vw;
+    margin-left:2vw;
+    padding-top:10vh;
+}
+.flexchild{
+    align-self:center;
+    height: 80%;
+
 }
 #imgTag{
-    height:70%;
-    width:40%;
-    align-self:center;
+    margin-left: 2vw;
+    height:100%;
+    width:90%;
+    
 }
 #ptag{
-    align-self:center;
-    font-size: large;
+    margin-right: 2vw;
+    font-size: 2vw;
 }
