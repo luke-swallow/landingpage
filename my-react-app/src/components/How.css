@@ -1,0 +1,21 @@
+.howChild{
+    display:flex;
+    flex-direction:row;
+    height:100vh;
+    justify-content: space-around;
+
+}
+#myh1{
+    font: Comfortaa;
+    weight: 700;
+    font-size: 4vw;
+}
+#imgTag{
+    height:70%;
+    width:40%;
+    align-self:center;
+}
+#ptag{
+    align-self:center;
+    font-size: large;
+}

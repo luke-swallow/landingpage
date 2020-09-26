@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, Row, Container, Col, Figure}  from 'react-bootstrap'
+import "./What.css";
 
 
 function What() {

@@ -29,25 +29,13 @@
 /* Bottom left text */
 
 
-  .whatContainer {
-  display: grid;
-}
 
-h1{
-  font-family: Comfortaa;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-}
+
 h2{
   font-family: Comfortaa;
   text-align: center;
 }
-p{
-  font-family: Comfortaa;
-  font-style: normal;
-  font-size: 30px;
-}
+
 
 .App-link {
   color: #61dafb;
