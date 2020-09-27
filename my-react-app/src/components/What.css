@@ -2,3 +2,11 @@
     background: #FCDD8F;
     height:100vh;
 }
+.row{
+    height:50%;
+    justify-content: start;;
+}
+.col{
+    flex-basis:auto;
+    font-size: 1.5vw;
+}

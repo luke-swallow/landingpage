@@ -5,31 +5,29 @@ import "./What.css";
 
 function What() {
     return (
-        <div className="whatContainer">
-           <h1>What is Revision?</h1>
-           <Container fluid>
-           <Row>
-                <Col >
-                    <Figure> 
-                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
-                        <Figure.Caption> <h2>Convenient</h2></Figure.Caption>
-                    </Figure>
-                </Col>
-                <Col >
-                    <Figure> 
-                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
-                        <Figure.Caption> <h2>Relevant</h2></Figure.Caption>
-                    </Figure>
-                </Col>
-                <Col >
-                    <Figure> 
-                        <Figure.Image src={require("../images/puppy.jpg")} width = "300" height= "300" roundedCircle className="puppy"/>
-                        <Figure.Caption> <h2>Visual</h2></Figure.Caption>
-                    </Figure>
-                </Col>
-            </Row>
-        </Container>
-        <Container fluid>
+           
+    <Container fluid className="whatContainer">
+        <h1 style={{fontSize:"4vw"}}>What is Revision?</h1>
+        <Row style={{color: "red"}}>
+            <Col >
+                <Figure> 
+                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Caption> <h2 style= {{fontSize: "3vw"}}>Convenient</h2></Figure.Caption>
+                </Figure>
+            </Col>
+            <Col >
+                <Figure> 
+                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Caption> <h2 style= {{fontSize: "3vw", textAlign:"center"}}>Convenient</h2></Figure.Caption>
+                </Figure>
+            </Col>
+            <Col >
+                <Figure> 
+                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Caption> <h2 style= {{fontSize: "3vw"}}>Convenient</h2></Figure.Caption>
+                </Figure>
+            </Col>
+        </Row>
         <Row >
             <Col>
             <p>
@@ -44,19 +42,10 @@ This is why companies implement Revision, a customer review tool that collects a
         </p>
         </Col>
         <Col >
-        <Image src={require("../images/puppy.jpg")} width= "900" height="600" />
+        <Image src={require("../images/puppy.jpg")} style= {{width:"100%", height:"100%" }} />
         </Col>
     </Row>    
 </Container>
-           
-                
-           
-            
-             
-                
-            
-
-        </div>
     );
 }
 
