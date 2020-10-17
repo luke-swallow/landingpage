@@ -11,19 +11,19 @@ function What() {
         <Row style={{color: "red"}}>
             <Col >
                 <Figure> 
-                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Image src={require("../images/puppy.jpg")}  roundedCircle className="puppy"/>
                     <Figure.Caption> <h2 style= {{fontSize: "3vw"}}>Convenient</h2></Figure.Caption>
                 </Figure>
             </Col>
             <Col >
                 <Figure> 
-                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Image src={require("../images/puppy.jpg")}   roundedCircle className="puppy"/>
                     <Figure.Caption> <h2 style= {{fontSize: "3vw", textAlign:"center"}}>Convenient</h2></Figure.Caption>
                 </Figure>
             </Col>
             <Col >
                 <Figure> 
-                    <Figure.Image src={require("../images/puppy.jpg")} style= {{height: "80%", width: "80%"}}  roundedCircle className="puppy"/>
+                    <Figure.Image src={require("../images/puppy.jpg")}  roundedCircle className="puppy"/>
                     <Figure.Caption> <h2 style= {{fontSize: "3vw"}}>Convenient</h2></Figure.Caption>
                 </Figure>
             </Col>
