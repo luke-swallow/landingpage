@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavbarComponent from './components/Navbar';
 import What from './components/What';
@@ -13,10 +12,7 @@ function App() {
     <div>
       <NavbarComponent/>
       <Homepage/>
-      <What/>
-      <How/>
-      <Why/>
-      <Contact/>
+
     </div>
   );
 }

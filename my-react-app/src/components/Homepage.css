@@ -1,7 +1,7 @@
 .homeContainer{
     height: 100vh;
     width:100vw;
-    background-image: url('https://files.slack.com/files-pri/T018GC6BTJQ-F01B274GQN8/pastel_background.png');
+    background-image: url('../images/pastel background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -10,13 +10,25 @@
     justify-content: center;
     align-items: center;
 
+
 }
  
-.h1tag{
-    font-size: 5vw;
-    font: Comfortaa;
+.homeh1tag{
+    width: 492px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 35%;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: Bold;
+  font-size: 115px;
 }
-.ptag{
-    font-size:3vw;
+.homep1tag{
+    top:50%;
+    font-size:40px;
     font: Comfortaa;
+    text-align: center;
 }
+.homeButton{}
+
+

@@ -1,5 +1,4 @@
 import React from 'react';
-import {Image, Row, Container,Button, Col, Figure, Jumbotron}  from 'react-bootstrap'
 import "./Homepage.css";
 
 function Homepage(){
@@ -8,9 +7,9 @@ function Homepage(){
     
        
            <div className="homeContainer">
-                <h1 className = "h1tag"> Revision</h1>
-                <p className = "ptag">Empowerment through UI/UX</p>
-                <Button className="btag" variant="success"size="lg">Request a demo</Button>{''}
+                <h1 className = "homeh1tag"> Revision</h1>
+                <p className = "homep1tag">Empowerment through UI/UX</p>
+                <button>Request a demo</button>
             </div>
     );
 }
